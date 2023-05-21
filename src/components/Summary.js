@@ -11,6 +11,13 @@ function Summary({ formData }) {
             ) : (
                 <p>Marvel Shows: {formData.show}</p>
             )}
+
+            <button
+                id="start-over"
+                onClick={() => window.location.reload(true)}
+            >
+                Start Over
+            </button>
         </div>
     );
 }
