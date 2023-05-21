@@ -17,6 +17,7 @@ const App = () => {
                         Enter your age:
                         <input
                             value={age}
+                            type="number"
                             onChange={(e) => setAge(e.target.value)}
                         />
                     </label>

@@ -8,7 +8,7 @@ function FormB({ onSubmit, age }) {
         event.preventDefault();
         if (marvelShows != "") {
             setFormData({
-                type: "FormB",
+                type: "Form B",
                 age: age,
                 show: marvelShows,
             });

@@ -9,7 +9,7 @@ function FormA({ onSubmit, age }) {
         event.preventDefault();
         if (show != "") {
             setFormData({
-                type: "FormA",
+                type: "Form A",
                 age: age,
                 show: show,
             });
