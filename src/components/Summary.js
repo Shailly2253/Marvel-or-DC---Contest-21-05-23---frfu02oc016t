@@ -1,23 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 function Summary({ formData }) {
     return (
         <div id="summary">
             <h2>Summary</h2>
-            <p>Form Type: {formData.type}</p>
-            <p>Age: {formData.age}</p>
+            <p>Form Type: </p>
+            <p>Age: </p>
 
-            {formData.type === "FormA" ? (
-                <p>DC Shows: {formData.show}</p>
-            ) : (
-                <p>Marvel Shows: {formData.show}</p>
-            )}
+            <p>DC Shows: </p>
 
-            <button
-                id="start-over"
-                onClick={() => window.location.reload(true)}
-            >
-                Start Over
-            </button>
+            <p>Marvel Shows: </p>
+
         </div>
     );
 }
